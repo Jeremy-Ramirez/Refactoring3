@@ -21,7 +21,8 @@ public class BadExample {
 		return (new Random()).nextDouble();
 	}
 	
-	public static double shop(String objeto,boolean compraDentroMall, boolean aplica, double descuento, boolean terceraEdad){
+	public static double shop(String objeto,boolean compraDentroMall, boolean terceraEdad){
+		
 		
 		double precio = 20;
 		if("celular".equals(objeto))
@@ -30,16 +31,14 @@ public class BadExample {
 		if(compraDentroMall)
 			precio = precio*2;
 		
-		if(aplica || terceraEdad)
-			precio = precio - precio*descuento;
+		if(isApplicable() || terceraEdad)
+			precio = precio - precio * (discount());
 	
 		return precio;
 	}
 	
 	public static void main(String[] args) {
-		boolean aplica = isApplicable();
-		double descuento = discount();
-		
-		System.out.println(shop("celular",true,aplica,descuento,false));
+
+		System.out.println(shop("celular",true,false));
 	}
 }
