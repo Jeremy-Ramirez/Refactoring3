@@ -5,6 +5,8 @@
  */
 package PrimitiveObsessionGood;
 
+import PrimitiveObsessionBad.City;
+
 /**
  *
  * @author gabpa

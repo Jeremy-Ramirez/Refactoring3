@@ -3,7 +3,6 @@
 /DataClassBad/
 /DataClassGood/
 /DataClumpsBad/
-/DataClumpsGood/
 /DuplicateCodeBad/
 /DuplicateCodeGood/
 /FeatureEnvyBad/
@@ -15,7 +14,6 @@
 /LongMethodBad/
 /LongMethodGood/
 /LongParameterBad/
-/LongParameterGood/
 /PrimitiveObsessionBad/
 /PrimitiveObsessionGood/
 /RefusedBequestBad/
