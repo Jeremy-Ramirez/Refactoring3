@@ -11,13 +11,13 @@ package DataClumpsBad;
  */
 public class GraphicLibrary {
 	
-	public void drawLine(int startX, int startY , int endX, int endY){
+	public void drawLine(Point a , Point b){
 		/*.............
 		............
 		*/
 	}
 	
-	public void drawCircle(int x, int y, int radius){
+	public void drawCircle(Point a, int radius){
 		/*...................
 		...................
 		*/

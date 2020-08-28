@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DataClumpsGood;
+package DataClumpsBad;
 
 import DataClassBad.*;
 
@@ -13,29 +13,29 @@ import DataClassBad.*;
  */
 public class Point {
 	
-	private double coordX;
-	private double coordY;
+	private double X;
+	private double Y;
 	
 	public Point(double x, double y){
-		this.coordX = x;
-		this.coordY = y;
+		this.X = x;
+		this.Y = y;
 		
 	}
 
 	public double getCoordX() {
-		return coordX;
+		return X;
 	}
 
-	public void setCoordX(double coordX) {
-		this.coordX = coordX;
+	public void setCoordX(double X) {
+		this.X = X;
 	}
 
 	public double getCoordY() {
-		return coordY;
+		return Y;
 	}
 
-	public void setCoordY(double coordY) {
-		this.coordY = coordY;
+	public void setCoordY(double Y) {
+		this.Y = Y;
 	}
 	
 	
