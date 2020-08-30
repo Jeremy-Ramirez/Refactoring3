@@ -5,11 +5,15 @@
  */
 package RefusedBequestBad;
 
-/**
- *
- * @author https://www.c-sharpcorner.com/article/refused-bequest-a-code-smell/
- */
+
 public class Car extends Vehicle{
 	
 	private String color;
+	
+	protected void drive(){
+		
+	}
+	
+	
+	
 }

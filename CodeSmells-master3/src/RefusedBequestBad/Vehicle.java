@@ -5,15 +5,10 @@
  */
 package RefusedBequestBad;
 
-/**
- *
- * @author gabpa
- */
+
 public class Vehicle {
 	
 	private String model;
 	
-	protected void drive(){
-		
-	}
+	
 }

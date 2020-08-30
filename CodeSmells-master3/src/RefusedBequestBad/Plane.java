@@ -5,10 +5,6 @@
  */
 package RefusedBequestBad;
 
-/**
- *
- * @author gabpa
- */
 public class Plane extends Vehicle{
 	
 	private String airline;
