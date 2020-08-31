@@ -2,7 +2,7 @@ package CommentsBad;
 
 public class BadExample {
 	
-	public static int doSomething(int a , int b){
+	public static int multiplicarFactoriales(int a , int b){
 		return factorial(a) * factorial(b);
 	}
 	
@@ -18,6 +18,6 @@ public class BadExample {
 		return result /2;
 	}
 	public static void main(String[] args) {
-		System.out.println(doSomething(4,8));
+		System.out.println(multiplicarFactoriales(4,8));
 	}
 }

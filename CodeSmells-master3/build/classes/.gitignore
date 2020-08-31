@@ -3,11 +3,9 @@
 /DataClassGood/
 /DataClumpsBad/
 /DuplicateCodeBad/
-/DuplicateCodeGood/
 /FeatureEnvyBad/
 /FeatureEnvyGood/
 /InappropiateIntimicyBad/
-/InappropiateIntimicyGood/
 /LargeClassBad/
 /LargeClassGood/
 /LongMethodBad/
@@ -15,7 +13,5 @@
 /LongParameterBad/
 /PrimitiveObsessionBad/
 /RefusedBequestBad/
-/RefusedBequestGood/
 /ShotgunSurgeryBad/
-/ShotgunSurgeryGood/
 /SwitchStatementsBad/
